@@ -1,5 +1,6 @@
 """ Card Deck """
 import collections
+from random import choice
 
 Card = collections.namedtuple('Card', ['rand', 'suit'])
 
